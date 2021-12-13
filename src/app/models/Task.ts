@@ -1,6 +1,6 @@
-export declare class Task{
-    _id:String
-    _listId:String
-    task:String
-    completed:Boolean
+export interface Task{
+    _id:String;
+    _listId:String;
+    task:String;
+    completed:Boolean;
 };

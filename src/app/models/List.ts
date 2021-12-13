@@ -1,5 +1,5 @@
-export declare class List{
-    _id:String
-    title:String
-    _userId:String
+export interface List{
+    _id:String;
+    title:String;
+    _userId:String;
 };

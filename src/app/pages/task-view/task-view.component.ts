@@ -56,7 +56,7 @@ export class TaskViewComponent implements OnInit {
       alert("Something went's wrong");
     });
   }
-
+  
   onDeleteTaskClick(taskId: any) {
     this.authService.postData(JSON.stringify({}),`${this.selectedListId}/deletetask/${taskId}`).then((res: any) => {
       console.log(res);
